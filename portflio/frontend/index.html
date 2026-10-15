@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David G | Full Stack Developer</title>
+    <meta name="description" content="David G, Full Stack Developer in Chennai. Python, JavaScript and REST APIs.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="progress" aria-hidden="true"></div>
+    <canvas id="bg3d" aria-hidden="true"></canvas>
+    <header class="site-header">
+        <nav>
+            <div class="brand">
+                <a class="logo" href="#hero">David G</a>
+                <div class="social">
+                    <a href="mailto:davidgdavidg22@gmail.com" aria-label="Email David" title="Email"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+                    <a href="https://www.linkedin.com/in/david-g-2bab632a2/" target="_blank" rel="noopener noreferrer" aria-label="David on LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11.5H3V9.75Zm6.5 0h3.83v1.57h.06c.53-1 1.84-2.07 3.78-2.07 4.04 0 4.78 2.66 4.78 6.1v5.9h-4v-5.23c0-1.25-.02-2.86-1.74-2.86-1.75 0-2.02 1.36-2.02 2.77v5.32h-4V9.75Z"/></svg></a>
+                </div>
+            </div>
+            <button class="menu-btn" id="menu-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">Menu</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="../asset/David G- resume.pdf" class="nav-resume" download="David_G_Resume.pdf">Resume</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+                <p class="status"><span class="dot"></span>Available immediately in Chennai</p>
+                <h1>Hi, I'm David G.<br>I build web apps that ship.</h1>
+                <p class="lead">Full Stack Developer working with Python, JavaScript and REST APIs.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn">View my work</a>
+                    <a href="resume.pdf" class="btn btn-ghost" download="David_G_Resume.pdf">Download resume</a>
+                </div>
+            </div>
+            <div class="code-card" aria-label="Profile summary">
+                <div class="code-bar"><span></span><span></span><span></span><em>profile.json</em></div>
+<pre><code><span class="k">{</span>
+  <span class="p">"name"</span>: <span class="s">"David G"</span>,
+  <span class="p">"role"</span>: <span class="s">"Full Stack Developer"</span>,
+  <span class="p">"degree"</span>: <span class="s">"B.E. Computer Science, 2026"</span>,
+  <span class="p">"stack"</span>: [<span class="s">"Python"</span>, <span class="s">"JavaScript"</span>, <span class="s">"SQL"</span>],
+  <span class="p">"deploys"</span>: [<span class="s">"Cloudflare"</span>, <span class="s">"Render"</span>],
+  <span class="p">"available"</span>: <span class="n">true</span>
+<span class="k">}</span></code></pre>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About me</h2>
+            <div class="about-grid">
+                <img class="portrait" src="../asset/img.jpeg" alt="Portrait of David G in a navy suit and tie" width="400" height="528" loading="lazy">
+                <div class="about-text">
+                    <p>I'm a Computer Science Engineering graduate (B.E., 2026) who builds production-ready web applications. I specialize in REST API development, third-party integrations and cloud deployment.</p>
+                    <p>I use Generative AI tools to speed up and sharpen my development workflow. I'm available immediately for roles in Chennai.</p>
+                    <a href="resume.pdf" class="btn" download="David_G_Resume.pdf">Download resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Languages</h3>
+                    <ul class="tags"><li>Python</li><li>JavaScript (ES6+)</li><li>SQL</li><li>Java</li></ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul class="tags"><li>HTML5</li><li>CSS3</li><li>Responsive design</li></ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend and cloud</h3>
+                    <ul class="tags"><li>REST APIs</li><li>Cloudflare</li><li>Render</li><li>Twilio API</li></ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools and AI</h3>
+                    <ul class="tags"><li>Git</li><li>GitHub</li><li>Claude</li><li>ChatGPT</li><li>Gemini</li></ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Project showcase</h2>
+            <article class="project-card">
+                <div class="project-head">
+                    <h3>Commercial Photography Platform</h3>
+                    <p class="stack">Python · JavaScript · HTML/CSS · SQL · Twilio API · Cloudflare · Render</p>
+                </div>
+                <ul class="outcomes">
+                    <li>Built a secure booking application with session handling.</li>
+                    <li>Integrated the Twilio WhatsApp API for real-time booking alerts.</li>
+                    <li>Deployed a decoupled architecture for continuous, zero-downtime releases.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Get in touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p>Have a role or project in mind? Send a message and I'll reply soon.</p>
+                    <p><a href="mailto:davidgdavidg22@gmail.com">davidgdavidg22@gmail.com</a></p>
+                    <p><a href="tel:+916383846723">+91 63838 46723</a></p>
+                    <p><a href="https://www.linkedin.com/in/david-g-2bab632a2/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+                    <p><a href="https://github.com/David-debug-commit">GitHub</a></p>
+                </div>
+                <form id="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" maxlength="80" autocomplete="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" maxlength="1000" required></textarea>
+                    <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp">
+                    <button type="submit" class="btn">Send message</button>
+                    <p id="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>© <span id="year"></span> David G. All rights reserved.</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="scene.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
